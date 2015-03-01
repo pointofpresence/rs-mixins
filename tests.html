@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>rs-mixins tests</title>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js"></script>
+
+    <!-- https://github.com/pointofpresence/rs-mixins -->
+    <script src="rs-mixins.js"></script>
+</head>
+<body>
+<script>
+    // normalizeArg
+    var list = "Birds, Insects, Flowers";
+    console.log(_.normalizeArg(list)); // ["Birds", "Insects", "Flowers"]
+
+    // popProperty
+    var o = {a: 1, b: 2};
+    console.log(_.popProperty(o, "a")); // 1
+    console.log(o);                     // {b: 2}
+
+    // fileExtension
+    var filename1 = "facepalm.jpg";
+    console.log(_.fileExtension(filename1)); // jpg
+
+    // removeExtension
+    var filename2 = "facepalm.jpg";
+    console.log(_.removeExtension(filename2)); // facepalm
+</script>
+</body>
+</html>
