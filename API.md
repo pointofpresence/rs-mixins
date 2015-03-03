@@ -134,6 +134,7 @@ It's used to take a string of comma separated names and turn it into an
 * `Array`
   * array of normalized names
 
+
 **Example**:
 ```js
 _.normalizeArg("Birds, Insects, Flowers");
