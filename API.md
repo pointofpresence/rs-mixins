@@ -172,7 +172,9 @@ Return the file extension of a filename
 * `String`
   * lowercased extension
 
-
+* * * *
+****
+--------------------------
 
 * * *
 
