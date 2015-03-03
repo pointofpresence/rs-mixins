@@ -13,13 +13,13 @@ components.
 
 ##### Parameters:
 
-* *red* `number`
+* **red** `number`
   * red component
 
-* *green* `number`
+* **green** `number`
   * green component
 
-* *blue* `number`
+* **blue** `number`
   * blue component
 
 ##### Returns: 
@@ -34,16 +34,16 @@ alpha values.
 
 ##### Parameters:
 
-* *red* `number`
+* **red** `number`
   * red component
 
-* *green* `number`
+* **green** `number`
   * green component
 
-* *blue* `number`
+* **blue** `number`
   * blue component
 
-* *alpha* `number`
+* **alpha** `number`
   * alpha component
 
 ##### Returns: 
@@ -57,7 +57,7 @@ Returns the red component of a color value.
 
 ##### Parameters:
 
-* *color* `number`
+* **color** `number`
   * color
 
 ##### Returns: 
@@ -71,7 +71,7 @@ Returns the green component of a color value.
 
 ##### Parameters:
 
-* *color* `number`
+* **color** `number`
   * color
 
 ##### Returns: 
@@ -85,7 +85,7 @@ Returns the blue component of a color value.
 
 ##### Parameters:
 
-* *color* `number`
+* **color** `number`
   * color
 
 ##### Returns: 
@@ -99,7 +99,7 @@ Returns the alpha component of a color value.
 
 ##### Parameters:
 
-* *color* `number`
+* **color** `number`
   * color
 
 ##### Returns: 
@@ -114,7 +114,7 @@ It's used to take a string of comma separated names and turn it into an
 
 ##### Parameters:
 
-* *arg* `String | Array`
+* **arg** `String | Array`
   * either a comma separated string or an array
 
 ##### Returns: 
@@ -134,10 +134,10 @@ Removes a property from an object and returns it if it exists
 
 ##### Parameters:
 
-* *obj* `Object`
+* **obj** `Object`
   * object
 
-* *property* `String`
+* **property** `String`
   * property to pop off the object
 
 ##### Returns: 
@@ -151,7 +151,7 @@ Helper method to return a name without an extension
 
 ##### Parameters:
 
-* *filename* `String`
+* **filename** `String`
   * Helper method to return a name without an extension
 
 ##### Returns: 
@@ -165,7 +165,7 @@ Return the file extension of a filename
 
 ##### Parameters:
 
-* *filename* `String`
+* **filename** `String`
   * Return the file extension of a filename
 
 ##### Returns: 
