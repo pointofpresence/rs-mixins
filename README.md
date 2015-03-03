@@ -3,7 +3,7 @@ Our custom functions for the Underscore object.
 
 
 # API
-See [here](https://github.com/pointofpresence/rs-mixins/blob/master/API.md)
+See [here](https://github.com/pointofpresence/rs-mixins/blob/master/API.md).
 
 
 # Requirements

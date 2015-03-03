@@ -9,10 +9,10 @@ _.mixin({
      * Returns the 24-bit color value corresponding to the red, green, blue
      * components.
      *
-     * @param red
-     * @param green
-     * @param blue
-     * @returns {number}
+     * @param {number} red red component
+     * @param {number} green green component
+     * @param {number} blue blue component
+     * @returns {number} 24-bit color value
      */
     rgb: function (red, green, blue) {
         return blue << 16 | green << 8 | red;
@@ -22,11 +22,11 @@ _.mixin({
      * Returns the 32-bit color value corresponding to the red, green, blue and
      * alpha values.
      *
-     * @param red
-     * @param green
-     * @param blue
-     * @param alpha
-     * @returns {number}
+     * @param {number} red red component
+     * @param {number} green green component
+     * @param {number} blue blue component
+     * @param {number} alpha alpha component
+     * @returns {number} 32-bit color value
      */
     rgba: function (red, green, blue, alpha) {
         return alpha << 24 | blue << 16 | green << 8 | red
@@ -35,8 +35,8 @@ _.mixin({
     /**
      * Returns the red component of a color value.
      *
-     * @param color
-     * @returns {number}
+     * @param {number} color color
+     * @returns {number} red component
      */
     red: function (color) {
         return color & 255;
@@ -45,8 +45,8 @@ _.mixin({
     /**
      * Returns the green component of a color value.
      *
-     * @param color
-     * @returns {number}
+     * @param {number} color color
+     * @returns {number} green component
      */
     green: function (color) {
         return color >> 8 & 255;
@@ -55,8 +55,8 @@ _.mixin({
     /**
      * Returns the blue component of a color value.
      *
-     * @param color
-     * @returns {number}
+     * @param {number} color color
+     * @returns {number} blue component
      */
     blue: function (color) {
         return color >> 16 & 255;
@@ -65,8 +65,8 @@ _.mixin({
     /**
      * Returns the alpha component of a color value.
      *
-     * @param color
-     * @returns {number}
+     * @param {number} color color
+     * @returns {number} alpha component
      */
     alpha: function (color) {
         return color >> 24 & 255;
@@ -75,12 +75,12 @@ _.mixin({
     /**
      * It's used to take a string of comma separated names and turn it into an
      * `Array` of names. If an array of names is passed in, it's left as is.
-     * Example usage:
      *
+     * @example
      * _.normalizeArg("Birds, Insects, Flowers");
      * // returns ["Birds", "Insects", "Flowers"]
      *
-     * @param {String|Array} arg - Either a comma separated string or an array
+     * @param {String|Array} arg either a comma separated string or an array
      * @return {Array} array of normalized names
      */
     normalizeArg: function (arg) {
@@ -98,8 +98,8 @@ _.mixin({
     /**
      * Removes a property from an object and returns it if it exists
      *
-     * @param {Object} obj
-     * @param {String} property - property to pop off the object
+     * @param {Object} obj object
+     * @param {String} property property to pop off the object
      * @return {*} popped property
      */
     popProperty: function (obj, property) {

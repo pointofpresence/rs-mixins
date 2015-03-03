@@ -11,18 +11,20 @@
 Returns the 24-bit color value corresponding to the red, green, blue
 components.
 
-**Parameters**
+##### Parameters:
 
-**red**: , Returns the 24-bit color value corresponding to the red, green, blue
-components.
+* *red* `number`
+* * red component
 
-**green**: , Returns the 24-bit color value corresponding to the red, green, blue
-components.
+* *green* `number`
+* * green component
 
-**blue**: , Returns the 24-bit color value corresponding to the red, green, blue
-components.
+* *blue* `number`
+* * blue component
 
-**Returns**: `number`
+##### Returns: 
+* `number`
+* * 24-bit color value
 
 
 ### rgba(red, green, blue, alpha) 
@@ -30,116 +32,145 @@ components.
 Returns the 32-bit color value corresponding to the red, green, blue and
 alpha values.
 
-**Parameters**
+##### Parameters:
 
-**red**: , Returns the 32-bit color value corresponding to the red, green, blue and
-alpha values.
+* *red* `number`
+* * red component
 
-**green**: , Returns the 32-bit color value corresponding to the red, green, blue and
-alpha values.
+* *green* `number`
+* * green component
 
-**blue**: , Returns the 32-bit color value corresponding to the red, green, blue and
-alpha values.
+* *blue* `number`
+* * blue component
 
-**alpha**: , Returns the 32-bit color value corresponding to the red, green, blue and
-alpha values.
+* *alpha* `number`
+* * alpha component
 
-**Returns**: `number`
+##### Returns: 
+* `number`
+* * 32-bit color value
 
 
 ### red(color) 
 
 Returns the red component of a color value.
 
-**Parameters**
+##### Parameters:
 
-**color**: , Returns the red component of a color value.
+* *color* `number`
+* * color
 
-**Returns**: `number`
+##### Returns: 
+* `number`
+* * red component
 
 
 ### green(color) 
 
 Returns the green component of a color value.
 
-**Parameters**
+##### Parameters:
 
-**color**: , Returns the green component of a color value.
+* *color* `number`
+* * color
 
-**Returns**: `number`
+##### Returns: 
+* `number`
+* * green component
 
 
 ### blue(color) 
 
 Returns the blue component of a color value.
 
-**Parameters**
+##### Parameters:
 
-**color**: , Returns the blue component of a color value.
+* *color* `number`
+* * color
 
-**Returns**: `number`
+##### Returns: 
+* `number`
+* * blue component
 
 
 ### alpha(color) 
 
 Returns the alpha component of a color value.
 
-**Parameters**
+##### Parameters:
 
-**color**: , Returns the alpha component of a color value.
+* *color* `number`
+* * color
 
-**Returns**: `number`
+##### Returns: 
+* `number`
+* * alpha component
 
 
 ### normalizeArg(arg) 
 
 It's used to take a string of comma separated names and turn it into an
 `Array` of names. If an array of names is passed in, it's left as is.
-Example usage:
 
+##### Parameters:
+
+* *arg* `String | Array`
+* * either a comma separated string or an array
+
+##### Returns: 
+* `Array`
+* * array of normalized names
+
+**Example**:
+```js
 _.normalizeArg("Birds, Insects, Flowers");
 // returns ["Birds", "Insects", "Flowers"]
-
-**Parameters**
-
-**arg**: `String | Array`, Either a comma separated string or an array
-
-**Returns**: `Array`, array of normalized names
+```
 
 
 ### popProperty(obj, property) 
 
 Removes a property from an object and returns it if it exists
 
-**Parameters**
+##### Parameters:
 
-**obj**: `Object`, Removes a property from an object and returns it if it exists
+* *obj* `Object`
+* * object
 
-**property**: `String`, property to pop off the object
+* *property* `String`
+* * property to pop off the object
 
-**Returns**: `*`, popped property
+##### Returns: 
+* `*`
+* * popped property
 
 
 ### removeExtension(filename) 
 
 Helper method to return a name without an extension
 
-**Parameters**
+##### Parameters:
 
-**filename**: `String`, Helper method to return a name without an extension
+* *filename* `String`
+* * Helper method to return a name without an extension
 
-**Returns**: `String`, filename without an extension
+##### Returns: 
+* `String`
+* * filename without an extension
 
 
 ### fileExtension(filename) 
 
 Return the file extension of a filename
 
-**Parameters**
+##### Parameters:
 
-**filename**: `String`, Return the file extension of a filename
+* *filename* `String`
+* * Return the file extension of a filename
 
-**Returns**: `String`, lowercased extension
+##### Returns: 
+* `String`
+* * lowercased extension
 
 
 
