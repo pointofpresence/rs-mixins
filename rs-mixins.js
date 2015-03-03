@@ -216,8 +216,8 @@ _.mixin({
     /**
      * Returns the hyperbolic tangent of the specified hyperbolic angle.
      *
-     * @param angle
-     * @returns {number}
+     * @param {number} angle angle
+     * @returns {number} hyperbolic tangent
      */
     tanH: function (angle) {
         return (Math.exp(angle) - Math.exp(-angle)) / (Math.exp(angle) + Math.exp(-angle))
@@ -226,8 +226,8 @@ _.mixin({
     /**
      * Returns the integer part of a float number.
      *
-     * @param a
-     * @returns {number}
+     * @param {number} a float number
+     * @returns {number} integer value
      */
     int: function (a) {
         return a | 0;
@@ -236,9 +236,9 @@ _.mixin({
     /**
      * Returns a random number from zero to the given maximum value (both values included).
      *
-     * @param maximum
-     * @param minimum
-     * @returns {*}
+     * @param {number} maximum maximum value
+     * @param {number} minimum optional minimum value
+     * @returns {number} number
      */
     random: function (maximum, minimum) {
         "undefined" === typeof minimum && (minimum = 0);
@@ -250,9 +250,9 @@ _.mixin({
      * the comparison operators to give a result shown in the following table.
      * This operator cannot be used with strings.
      *
-     * @param a
-     * @param b
-     * @returns {*|boolean}
+     * @param {number} a first value
+     * @param {number} b second value
+     * @returns {*|boolean} logical XOR
      */
     xor: function (a, b) {
         return (a || b) && !(a && b);
@@ -279,8 +279,7 @@ _.mixin({
         }
 
         return arg;
-    }
-    ,
+    },
 
     /**
      * Removes a property from an object and returns it if it exists
