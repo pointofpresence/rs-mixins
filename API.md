@@ -14,17 +14,17 @@ components.
 ##### Parameters:
 
 * *red* `number`
-* * red component
+  * red component
 
 * *green* `number`
-* * green component
+  * green component
 
 * *blue* `number`
-* * blue component
+  * blue component
 
 ##### Returns: 
 * `number`
-* * 24-bit color value
+  * 24-bit color value
 
 
 ### rgba(red, green, blue, alpha) 
@@ -35,20 +35,20 @@ alpha values.
 ##### Parameters:
 
 * *red* `number`
-* * red component
+  * red component
 
 * *green* `number`
-* * green component
+  * green component
 
 * *blue* `number`
-* * blue component
+  * blue component
 
 * *alpha* `number`
-* * alpha component
+  * alpha component
 
 ##### Returns: 
 * `number`
-* * 32-bit color value
+  * 32-bit color value
 
 
 ### red(color) 
@@ -58,11 +58,11 @@ Returns the red component of a color value.
 ##### Parameters:
 
 * *color* `number`
-* * color
+  * color
 
 ##### Returns: 
 * `number`
-* * red component
+  * red component
 
 
 ### green(color) 
@@ -72,11 +72,11 @@ Returns the green component of a color value.
 ##### Parameters:
 
 * *color* `number`
-* * color
+  * color
 
 ##### Returns: 
 * `number`
-* * green component
+  * green component
 
 
 ### blue(color) 
@@ -86,11 +86,11 @@ Returns the blue component of a color value.
 ##### Parameters:
 
 * *color* `number`
-* * color
+  * color
 
 ##### Returns: 
 * `number`
-* * blue component
+  * blue component
 
 
 ### alpha(color) 
@@ -100,11 +100,11 @@ Returns the alpha component of a color value.
 ##### Parameters:
 
 * *color* `number`
-* * color
+  * color
 
 ##### Returns: 
 * `number`
-* * alpha component
+  * alpha component
 
 
 ### normalizeArg(arg) 
@@ -115,11 +115,11 @@ It's used to take a string of comma separated names and turn it into an
 ##### Parameters:
 
 * *arg* `String | Array`
-* * either a comma separated string or an array
+  * either a comma separated string or an array
 
 ##### Returns: 
 * `Array`
-* * array of normalized names
+  * array of normalized names
 
 **Example**:
 ```js
@@ -135,14 +135,14 @@ Removes a property from an object and returns it if it exists
 ##### Parameters:
 
 * *obj* `Object`
-* * object
+  * object
 
 * *property* `String`
-* * property to pop off the object
+  * property to pop off the object
 
 ##### Returns: 
 * `*`
-* * popped property
+  * popped property
 
 
 ### removeExtension(filename) 
@@ -152,11 +152,11 @@ Helper method to return a name without an extension
 ##### Parameters:
 
 * *filename* `String`
-* * Helper method to return a name without an extension
+  * Helper method to return a name without an extension
 
 ##### Returns: 
 * `String`
-* * filename without an extension
+  * filename without an extension
 
 
 ### fileExtension(filename) 
@@ -166,11 +166,11 @@ Return the file extension of a filename
 ##### Parameters:
 
 * *filename* `String`
-* * Return the file extension of a filename
+  * Return the file extension of a filename
 
 ##### Returns: 
 * `String`
-* * lowercased extension
+  * lowercased extension
 
 
 
