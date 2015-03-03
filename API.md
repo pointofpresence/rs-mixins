@@ -4,8 +4,8 @@
 
 
 
-* * *
 
+## Functions
 ### rgb(red, green, blue) 
 
 Returns the 24-bit color value corresponding to the red, green, blue
@@ -27,6 +27,9 @@ components.
   * 24-bit color value
 
 
+* * *
+
+## Functions
 ### rgba(red, green, blue, alpha) 
 
 Returns the 32-bit color value corresponding to the red, green, blue and
@@ -51,6 +54,9 @@ alpha values.
   * 32-bit color value
 
 
+* * *
+
+## Functions
 ### red(color) 
 
 Returns the red component of a color value.
@@ -65,6 +71,9 @@ Returns the red component of a color value.
   * red component
 
 
+* * *
+
+## Functions
 ### green(color) 
 
 Returns the green component of a color value.
@@ -79,6 +88,9 @@ Returns the green component of a color value.
   * green component
 
 
+* * *
+
+## Functions
 ### blue(color) 
 
 Returns the blue component of a color value.
@@ -93,6 +105,9 @@ Returns the blue component of a color value.
   * blue component
 
 
+* * *
+
+## Functions
 ### alpha(color) 
 
 Returns the alpha component of a color value.
@@ -107,6 +122,9 @@ Returns the alpha component of a color value.
   * alpha component
 
 
+* * *
+
+## Functions
 ### normalizeArg(arg) 
 
 It's used to take a string of comma separated names and turn it into an
@@ -128,6 +146,9 @@ _.normalizeArg("Birds, Insects, Flowers");
 ```
 
 
+* * *
+
+## Functions
 ### popProperty(obj, property) 
 
 Removes a property from an object and returns it if it exists
@@ -145,6 +166,9 @@ Removes a property from an object and returns it if it exists
   * popped property
 
 
+* * *
+
+## Functions
 ### removeExtension(filename) 
 
 Helper method to return a name without an extension
@@ -159,6 +183,9 @@ Helper method to return a name without an extension
   * filename without an extension
 
 
+* * *
+
+## Functions
 ### fileExtension(filename) 
 
 Return the file extension of a filename
@@ -172,11 +199,10 @@ Return the file extension of a filename
 * `String`
   * lowercased extension
 
-* * * *
-****
---------------------------
 
 * * *
+
+
 
 
 
