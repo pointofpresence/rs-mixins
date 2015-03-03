@@ -312,11 +312,12 @@ Returns the hyperbolic tangent of the specified hyperbolic angle.
 
 ##### Parameters:
 
-* **angle** 
-  * Returns the hyperbolic tangent of the specified hyperbolic angle.
+* **angle** `number`
+  * angle
 
 ##### Returns: 
 * `number`
+  * hyperbolic tangent
 
 
 * * *
@@ -327,11 +328,12 @@ Returns the integer part of a float number.
 
 ##### Parameters:
 
-* **a** 
-  * Returns the integer part of a float number.
+* **a** `number`
+  * float number
 
 ##### Returns: 
 * `number`
+  * integer value
 
 
 * * *
@@ -342,14 +344,15 @@ Returns a random number from zero to the given maximum value (both values includ
 
 ##### Parameters:
 
-* **maximum** 
-  * Returns a random number from zero to the given maximum value (both values included).
+* **maximum** `number`
+  * maximum value
 
-* **minimum** 
-  * Returns a random number from zero to the given maximum value (both values included).
+* **minimum** `number`
+  * optional minimum value
 
 ##### Returns: 
-* `*`
+* `number`
+  * number
 
 
 * * *
@@ -362,18 +365,15 @@ This operator cannot be used with strings.
 
 ##### Parameters:
 
-* **a** 
-  * Logical XOR. Can be used to combine the logical true ot false results of
-the comparison operators to give a result shown in the following table.
-This operator cannot be used with strings.
+* **a** `number`
+  * first value
 
-* **b** 
-  * Logical XOR. Can be used to combine the logical true ot false results of
-the comparison operators to give a result shown in the following table.
-This operator cannot be used with strings.
+* **b** `number`
+  * second value
 
 ##### Returns: 
 * `* | boolean`
+  * logical XOR
 
 
 * * *
