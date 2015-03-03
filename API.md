@@ -1,4 +1,4 @@
-# rs-mixins
+# Global
 
 
 
@@ -7,7 +7,7 @@
 
 ## Functions
 
-### rs-mixins.rgb(red, green, blue) 
+### rgb(red, green, blue) 
 
 Returns the 24-bit color value corresponding to the red, green, blue
 components.
@@ -30,7 +30,7 @@ components.
 
 * * *
 
-### rs-mixins.rgba(red, green, blue, alpha) 
+### rgba(red, green, blue, alpha) 
 
 Returns the 32-bit color value corresponding to the red, green, blue and
 alpha values.
@@ -56,7 +56,7 @@ alpha values.
 
 * * *
 
-### rs-mixins.red(color) 
+### red(color) 
 
 Returns the red component of a color value.
 
@@ -72,7 +72,7 @@ Returns the red component of a color value.
 
 * * *
 
-### rs-mixins.green(color) 
+### green(color) 
 
 Returns the green component of a color value.
 
@@ -88,7 +88,7 @@ Returns the green component of a color value.
 
 * * *
 
-### rs-mixins.blue(color) 
+### blue(color) 
 
 Returns the blue component of a color value.
 
@@ -104,7 +104,7 @@ Returns the blue component of a color value.
 
 * * *
 
-### rs-mixins.alpha(color) 
+### alpha(color) 
 
 Returns the alpha component of a color value.
 
@@ -120,7 +120,7 @@ Returns the alpha component of a color value.
 
 * * *
 
-### rs-mixins.aCosH(a) 
+### aCosH(a) 
 
 Returns the area hyperbolic cosine of the specified value.
 
@@ -135,7 +135,7 @@ Returns the area hyperbolic cosine of the specified value.
 
 * * *
 
-### rs-mixins.aSinH(a) 
+### aSinH(a) 
 
 Returns the area hyperbolic sine of the specified value.
 
@@ -150,7 +150,7 @@ Returns the area hyperbolic sine of the specified value.
 
 * * *
 
-### rs-mixins.aTanH(a) 
+### aTanH(a) 
 
 Returns the area hyperbolic tangent of the specified value.
 
@@ -165,7 +165,7 @@ Returns the area hyperbolic tangent of the specified value.
 
 * * *
 
-### rs-mixins.cosH(angle) 
+### cosH(angle) 
 
 Returns the hyperbolic cosine of the specified hyperbolic angle.
 
@@ -180,7 +180,7 @@ Returns the hyperbolic cosine of the specified hyperbolic angle.
 
 * * *
 
-### rs-mixins.degree(angle) 
+### degree(angle) 
 
 Converts the given angle from radian to degree.
 
@@ -195,7 +195,7 @@ Converts the given angle from radian to degree.
 
 * * *
 
-### rs-mixins.radian(angle) 
+### radian(angle) 
 
 Converts the given angle from degrees into radian.
 
@@ -210,7 +210,7 @@ Converts the given angle from degrees into radian.
 
 * * *
 
-### rs-mixins.log10(a) 
+### log10(a) 
 
 Returns the log in base 10 of the given number.
 
@@ -225,7 +225,7 @@ Returns the log in base 10 of the given number.
 
 * * *
 
-### rs-mixins.mod(number, divisor) 
+### mod(number, divisor) 
 
 Returns the remainder of the division of Number by Divisor.
 
@@ -243,7 +243,7 @@ Returns the remainder of the division of Number by Divisor.
 
 * * *
 
-### rs-mixins.isInfinity(a) 
+### isInfinity(a) 
 
 Returns nonzero if the given value represents positive or negative infinity.
 
@@ -258,7 +258,7 @@ Returns nonzero if the given value represents positive or negative infinity.
 
 * * *
 
-### rs-mixins.round(number, mode) 
+### round(number, mode) 
 
 Round the specified float number according to the given mode.
 
@@ -276,7 +276,7 @@ Round the specified float number according to the given mode.
 
 * * *
 
-### rs-mixins.sign(a) 
+### sign(a) 
 
 Returns a floating-point value representing the sign of the given number.
 
@@ -291,7 +291,7 @@ Returns a floating-point value representing the sign of the given number.
 
 * * *
 
-### rs-mixins.sinH(angle) 
+### sinH(angle) 
 
 Returns the hyperbolic sine of the specified hyperbolic angle.
 
@@ -306,7 +306,7 @@ Returns the hyperbolic sine of the specified hyperbolic angle.
 
 * * *
 
-### rs-mixins.tanH(angle) 
+### tanH(angle) 
 
 Returns the hyperbolic tangent of the specified hyperbolic angle.
 
@@ -321,7 +321,7 @@ Returns the hyperbolic tangent of the specified hyperbolic angle.
 
 * * *
 
-### rs-mixins.int(a) 
+### int(a) 
 
 Returns the integer part of a float number.
 
@@ -336,7 +336,7 @@ Returns the integer part of a float number.
 
 * * *
 
-### rs-mixins.random(maximum, minimum) 
+### random(maximum, minimum) 
 
 Returns a random number from zero to the given maximum value (both values included).
 
@@ -354,7 +354,7 @@ Returns a random number from zero to the given maximum value (both values includ
 
 * * *
 
-### rs-mixins.xor(a, b) 
+### xor(a, b) 
 
 Logical XOR. Can be used to combine the logical true ot false results of
 the comparison operators to give a result shown in the following table.
@@ -378,7 +378,7 @@ This operator cannot be used with strings.
 
 * * *
 
-### rs-mixins.normalizeArg(arg) 
+### normalizeArg(arg) 
 
 It's used to take a string of comma separated names and turn it into an
 `Array` of names. If an array of names is passed in, it's left as is.
@@ -401,7 +401,7 @@ _.normalizeArg("Birds, Insects, Flowers");
 
 * * *
 
-### rs-mixins.popProperty(obj, property) 
+### popProperty(obj, property) 
 
 Removes a property from an object and returns it if it exists
 
@@ -420,7 +420,7 @@ Removes a property from an object and returns it if it exists
 
 * * *
 
-### rs-mixins.removeExtension(filename) 
+### removeExtension(filename) 
 
 Helper method to return a name without an extension
 
@@ -436,7 +436,7 @@ Helper method to return a name without an extension
 
 * * *
 
-### rs-mixins.fileExtension(filename) 
+### fileExtension(filename) 
 
 Return the file extension of a filename
 
