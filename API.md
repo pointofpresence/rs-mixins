@@ -1,4 +1,4 @@
-# Global
+# rs-mixins
 
 
 
@@ -7,7 +7,7 @@
 
 ## Functions
 
-### rgb(red, green, blue) 
+### rs-mixins.rgb(red, green, blue) 
 
 Returns the 24-bit color value corresponding to the red, green, blue
 components.
@@ -30,7 +30,7 @@ components.
 
 * * *
 
-### rgba(red, green, blue, alpha) 
+### rs-mixins.rgba(red, green, blue, alpha) 
 
 Returns the 32-bit color value corresponding to the red, green, blue and
 alpha values.
@@ -56,7 +56,7 @@ alpha values.
 
 * * *
 
-### red(color) 
+### rs-mixins.red(color) 
 
 Returns the red component of a color value.
 
@@ -72,7 +72,7 @@ Returns the red component of a color value.
 
 * * *
 
-### green(color) 
+### rs-mixins.green(color) 
 
 Returns the green component of a color value.
 
@@ -88,7 +88,7 @@ Returns the green component of a color value.
 
 * * *
 
-### blue(color) 
+### rs-mixins.blue(color) 
 
 Returns the blue component of a color value.
 
@@ -104,7 +104,7 @@ Returns the blue component of a color value.
 
 * * *
 
-### alpha(color) 
+### rs-mixins.alpha(color) 
 
 Returns the alpha component of a color value.
 
@@ -120,7 +120,265 @@ Returns the alpha component of a color value.
 
 * * *
 
-### normalizeArg(arg) 
+### rs-mixins.aCosH(a) 
+
+Returns the area hyperbolic cosine of the specified value.
+
+##### Parameters:
+
+* **a** 
+  * Returns the area hyperbolic cosine of the specified value.
+
+##### Returns: 
+* `number`
+
+
+* * *
+
+### rs-mixins.aSinH(a) 
+
+Returns the area hyperbolic sine of the specified value.
+
+##### Parameters:
+
+* **a** 
+  * Returns the area hyperbolic sine of the specified value.
+
+##### Returns: 
+* `number`
+
+
+* * *
+
+### rs-mixins.aTanH(a) 
+
+Returns the area hyperbolic tangent of the specified value.
+
+##### Parameters:
+
+* **a** 
+  * Returns the area hyperbolic tangent of the specified value.
+
+##### Returns: 
+* `number`
+
+
+* * *
+
+### rs-mixins.cosH(angle) 
+
+Returns the hyperbolic cosine of the specified hyperbolic angle.
+
+##### Parameters:
+
+* **angle** 
+  * Returns the hyperbolic cosine of the specified hyperbolic angle.
+
+##### Returns: 
+* `number`
+
+
+* * *
+
+### rs-mixins.degree(angle) 
+
+Converts the given angle from radian to degree.
+
+##### Parameters:
+
+* **angle** 
+  * Converts the given angle from radian to degree.
+
+##### Returns: 
+* `number`
+
+
+* * *
+
+### rs-mixins.radian(angle) 
+
+Converts the given angle from degrees into radian.
+
+##### Parameters:
+
+* **angle** 
+  * Converts the given angle from degrees into radian.
+
+##### Returns: 
+* `number`
+
+
+* * *
+
+### rs-mixins.log10(a) 
+
+Returns the log in base 10 of the given number.
+
+##### Parameters:
+
+* **a** 
+  * Returns the log in base 10 of the given number.
+
+##### Returns: 
+* `number`
+
+
+* * *
+
+### rs-mixins.mod(number, divisor) 
+
+Returns the remainder of the division of Number by Divisor.
+
+##### Parameters:
+
+* **number** 
+  * Returns the remainder of the division of Number by Divisor.
+
+* **divisor** 
+  * Returns the remainder of the division of Number by Divisor.
+
+##### Returns: 
+* `function`
+
+
+* * *
+
+### rs-mixins.isInfinity(a) 
+
+Returns nonzero if the given value represents positive or negative infinity.
+
+##### Parameters:
+
+* **a** 
+  * Returns nonzero if the given value represents positive or negative infinity.
+
+##### Returns: 
+* `number`
+
+
+* * *
+
+### rs-mixins.round(number, mode) 
+
+Round the specified float number according to the given mode.
+
+##### Parameters:
+
+* **number** 
+  * Round the specified float number according to the given mode.
+
+* **mode** 
+  * (Down = 0 / Up = 1 / Nearest = 2)
+
+##### Returns: 
+* `number`
+
+
+* * *
+
+### rs-mixins.sign(a) 
+
+Returns a floating-point value representing the sign of the given number.
+
+##### Parameters:
+
+* **a** 
+  * Returns a floating-point value representing the sign of the given number.
+
+##### Returns: 
+* `number`
+
+
+* * *
+
+### rs-mixins.sinH(angle) 
+
+Returns the hyperbolic sine of the specified hyperbolic angle.
+
+##### Parameters:
+
+* **angle** 
+  * Returns the hyperbolic sine of the specified hyperbolic angle.
+
+##### Returns: 
+* `number`
+
+
+* * *
+
+### rs-mixins.tanH(angle) 
+
+Returns the hyperbolic tangent of the specified hyperbolic angle.
+
+##### Parameters:
+
+* **angle** 
+  * Returns the hyperbolic tangent of the specified hyperbolic angle.
+
+##### Returns: 
+* `number`
+
+
+* * *
+
+### rs-mixins.int(a) 
+
+Returns the integer part of a float number.
+
+##### Parameters:
+
+* **a** 
+  * Returns the integer part of a float number.
+
+##### Returns: 
+* `number`
+
+
+* * *
+
+### rs-mixins.random(maximum, minimum) 
+
+Returns a random number from zero to the given maximum value (both values included).
+
+##### Parameters:
+
+* **maximum** 
+  * Returns a random number from zero to the given maximum value (both values included).
+
+* **minimum** 
+  * Returns a random number from zero to the given maximum value (both values included).
+
+##### Returns: 
+* `*`
+
+
+* * *
+
+### rs-mixins.xor(a, b) 
+
+Logical XOR. Can be used to combine the logical true ot false results of
+the comparison operators to give a result shown in the following table.
+This operator cannot be used with strings.
+
+##### Parameters:
+
+* **a** 
+  * Logical XOR. Can be used to combine the logical true ot false results of
+the comparison operators to give a result shown in the following table.
+This operator cannot be used with strings.
+
+* **b** 
+  * Logical XOR. Can be used to combine the logical true ot false results of
+the comparison operators to give a result shown in the following table.
+This operator cannot be used with strings.
+
+##### Returns: 
+* `* | boolean`
+
+
+* * *
+
+### rs-mixins.normalizeArg(arg) 
 
 It's used to take a string of comma separated names and turn it into an
 `Array` of names. If an array of names is passed in, it's left as is.
@@ -134,7 +392,6 @@ It's used to take a string of comma separated names and turn it into an
 * `Array`
   * array of normalized names
 
-
 **Example**:
 ```js
 _.normalizeArg("Birds, Insects, Flowers");
@@ -144,7 +401,7 @@ _.normalizeArg("Birds, Insects, Flowers");
 
 * * *
 
-### popProperty(obj, property) 
+### rs-mixins.popProperty(obj, property) 
 
 Removes a property from an object and returns it if it exists
 
@@ -163,7 +420,7 @@ Removes a property from an object and returns it if it exists
 
 * * *
 
-### removeExtension(filename) 
+### rs-mixins.removeExtension(filename) 
 
 Helper method to return a name without an extension
 
@@ -179,7 +436,7 @@ Helper method to return a name without an extension
 
 * * *
 
-### fileExtension(filename) 
+### rs-mixins.fileExtension(filename) 
 
 Return the file extension of a filename
 
