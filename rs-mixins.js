@@ -1,5 +1,5 @@
 /**
- * @module  rs-mixins
+ * @name  rs-mixins
  * @version 0.2
  * @author point.of.presence and others
  * @see http://pointofpresence.ru
