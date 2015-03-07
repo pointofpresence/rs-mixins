@@ -126,11 +126,12 @@ Returns the area hyperbolic cosine of the specified value.
 
 ##### Parameters:
 
-* **a** 
-  * Returns the area hyperbolic cosine of the specified value.
+* **a** `number`
+  * value
 
 ##### Returns: 
 * `number`
+  * area hyperbolic cosine
 
 
 * * *
@@ -141,11 +142,12 @@ Returns the area hyperbolic sine of the specified value.
 
 ##### Parameters:
 
-* **a** 
-  * Returns the area hyperbolic sine of the specified value.
+* **a** `number`
+  * value
 
 ##### Returns: 
 * `number`
+  * area hyperbolic sine
 
 
 * * *
@@ -156,11 +158,12 @@ Returns the area hyperbolic tangent of the specified value.
 
 ##### Parameters:
 
-* **a** 
-  * Returns the area hyperbolic tangent of the specified value.
+* **a** `number`
+  * value
 
 ##### Returns: 
 * `number`
+  * area hyperbolic tangent
 
 
 * * *
@@ -171,11 +174,12 @@ Returns the hyperbolic cosine of the specified hyperbolic angle.
 
 ##### Parameters:
 
-* **angle** 
-  * Returns the hyperbolic cosine of the specified hyperbolic angle.
+* **angle** `number`
+  * angle
 
 ##### Returns: 
 * `number`
+  * hyperbolic cosine
 
 
 * * *
@@ -186,11 +190,12 @@ Converts the given angle from radian to degree.
 
 ##### Parameters:
 
-* **angle** 
-  * Converts the given angle from radian to degree.
+* **angle** `number`
+  * radian angle
 
 ##### Returns: 
 * `number`
+  * degree angle
 
 
 * * *
@@ -201,11 +206,12 @@ Converts the given angle from degrees into radian.
 
 ##### Parameters:
 
-* **angle** 
-  * Converts the given angle from degrees into radian.
+* **angle** `number`
+  * degree angle
 
 ##### Returns: 
 * `number`
+  * radian angle
 
 
 * * *
@@ -216,44 +222,28 @@ Returns the log in base 10 of the given number.
 
 ##### Parameters:
 
-* **a** 
-  * Returns the log in base 10 of the given number.
+* **a** `number`
+  * number
 
 ##### Returns: 
 * `number`
-
-
-* * *
-
-### mod(number, divisor) 
-
-Returns the remainder of the division of Number by Divisor.
-
-##### Parameters:
-
-* **number** 
-  * Returns the remainder of the division of Number by Divisor.
-
-* **divisor** 
-  * Returns the remainder of the division of Number by Divisor.
-
-##### Returns: 
-* `function`
+  * log in base 10
 
 
 * * *
 
 ### isInfinity(a) 
 
-Returns nonzero if the given value represents positive or negative infinity.
+Returns true if the given value represents positive or negative infinity.
 
 ##### Parameters:
 
-* **a** 
-  * Returns nonzero if the given value represents positive or negative infinity.
+* **a** `number`
+  * value
 
 ##### Returns: 
-* `number`
+* `boolean`
+  * true or false
 
 
 * * *
@@ -264,14 +254,15 @@ Round the specified float number according to the given mode.
 
 ##### Parameters:
 
-* **number** 
+* **number** `number`
   * Round the specified float number according to the given mode.
 
-* **mode** 
-  * (Down = 0 / Up = 1 / Nearest = 2)
+* **mode** `number`
+  * mode (Down = 0 / Up = 1 / Nearest = 2)
 
 ##### Returns: 
 * `number`
+  * rounded value
 
 
 * * *
@@ -282,11 +273,12 @@ Returns a floating-point value representing the sign of the given number.
 
 ##### Parameters:
 
-* **a** 
-  * Returns a floating-point value representing the sign of the given number.
+* **a** `number`
+  * value
 
 ##### Returns: 
 * `number`
+  * -1 or 0 or 1
 
 
 * * *
@@ -297,11 +289,12 @@ Returns the hyperbolic sine of the specified hyperbolic angle.
 
 ##### Parameters:
 
-* **angle** 
-  * Returns the hyperbolic sine of the specified hyperbolic angle.
+* **angle** `number`
+  * hyperbolic angle
 
 ##### Returns: 
 * `number`
+  * hyperbolic sine
 
 
 * * *
@@ -313,7 +306,7 @@ Returns the hyperbolic tangent of the specified hyperbolic angle.
 ##### Parameters:
 
 * **angle** `number`
-  * angle
+  * hyperbolic angle
 
 ##### Returns: 
 * `number`
