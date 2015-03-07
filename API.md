@@ -15,17 +15,17 @@ components.
 ##### Parameters:
 
 * **red** `number`
-  * red component
+* * red component
 
 * **green** `number`
-  * green component
+* * green component
 
 * **blue** `number`
-  * blue component
+* * blue component
 
 ##### Returns: 
 * `number`
-  * 24-bit color value
+*  * 24-bit color value
 
 
 * * *
@@ -38,20 +38,20 @@ alpha values.
 ##### Parameters:
 
 * **red** `number`
-  * red component
+* * red component
 
 * **green** `number`
-  * green component
+* * green component
 
 * **blue** `number`
-  * blue component
+* * blue component
 
 * **alpha** `number`
-  * alpha component
+* * alpha component
 
 ##### Returns: 
 * `number`
-  * 32-bit color value
+*  * 32-bit color value
 
 
 * * *
@@ -63,11 +63,11 @@ Returns the red component of a color value.
 ##### Parameters:
 
 * **color** `number`
-  * color
+* * color
 
 ##### Returns: 
 * `number`
-  * red component
+*  * red component
 
 
 * * *
@@ -79,11 +79,11 @@ Returns the green component of a color value.
 ##### Parameters:
 
 * **color** `number`
-  * color
+* * color
 
 ##### Returns: 
 * `number`
-  * green component
+*  * green component
 
 
 * * *
@@ -95,11 +95,11 @@ Returns the blue component of a color value.
 ##### Parameters:
 
 * **color** `number`
-  * color
+* * color
 
 ##### Returns: 
 * `number`
-  * blue component
+*  * blue component
 
 
 * * *
@@ -111,11 +111,11 @@ Returns the alpha component of a color value.
 ##### Parameters:
 
 * **color** `number`
-  * color
+* * color
 
 ##### Returns: 
 * `number`
-  * alpha component
+*  * alpha component
 
 
 * * *
@@ -127,7 +127,7 @@ Returns the area hyperbolic cosine of the specified value.
 ##### Parameters:
 
 * **a** 
-  * Returns the area hyperbolic cosine of the specified value.
+* * Returns the area hyperbolic cosine of the specified value.
 
 ##### Returns: 
 * `number`
@@ -142,7 +142,7 @@ Returns the area hyperbolic sine of the specified value.
 ##### Parameters:
 
 * **a** 
-  * Returns the area hyperbolic sine of the specified value.
+* * Returns the area hyperbolic sine of the specified value.
 
 ##### Returns: 
 * `number`
@@ -157,7 +157,7 @@ Returns the area hyperbolic tangent of the specified value.
 ##### Parameters:
 
 * **a** 
-  * Returns the area hyperbolic tangent of the specified value.
+* * Returns the area hyperbolic tangent of the specified value.
 
 ##### Returns: 
 * `number`
@@ -172,7 +172,7 @@ Returns the hyperbolic cosine of the specified hyperbolic angle.
 ##### Parameters:
 
 * **angle** 
-  * Returns the hyperbolic cosine of the specified hyperbolic angle.
+* * Returns the hyperbolic cosine of the specified hyperbolic angle.
 
 ##### Returns: 
 * `number`
@@ -187,7 +187,7 @@ Converts the given angle from radian to degree.
 ##### Parameters:
 
 * **angle** 
-  * Converts the given angle from radian to degree.
+* * Converts the given angle from radian to degree.
 
 ##### Returns: 
 * `number`
@@ -202,7 +202,7 @@ Converts the given angle from degrees into radian.
 ##### Parameters:
 
 * **angle** 
-  * Converts the given angle from degrees into radian.
+* * Converts the given angle from degrees into radian.
 
 ##### Returns: 
 * `number`
@@ -217,7 +217,7 @@ Returns the log in base 10 of the given number.
 ##### Parameters:
 
 * **a** 
-  * Returns the log in base 10 of the given number.
+* * Returns the log in base 10 of the given number.
 
 ##### Returns: 
 * `number`
@@ -232,10 +232,10 @@ Returns the remainder of the division of Number by Divisor.
 ##### Parameters:
 
 * **number** 
-  * Returns the remainder of the division of Number by Divisor.
+* * Returns the remainder of the division of Number by Divisor.
 
 * **divisor** 
-  * Returns the remainder of the division of Number by Divisor.
+* * Returns the remainder of the division of Number by Divisor.
 
 ##### Returns: 
 * `function`
@@ -250,7 +250,7 @@ Returns nonzero if the given value represents positive or negative infinity.
 ##### Parameters:
 
 * **a** 
-  * Returns nonzero if the given value represents positive or negative infinity.
+* * Returns nonzero if the given value represents positive or negative infinity.
 
 ##### Returns: 
 * `number`
@@ -265,10 +265,10 @@ Round the specified float number according to the given mode.
 ##### Parameters:
 
 * **number** 
-  * Round the specified float number according to the given mode.
+* * Round the specified float number according to the given mode.
 
 * **mode** 
-  * (Down = 0 / Up = 1 / Nearest = 2)
+* * (Down = 0 / Up = 1 / Nearest = 2)
 
 ##### Returns: 
 * `number`
@@ -283,7 +283,7 @@ Returns a floating-point value representing the sign of the given number.
 ##### Parameters:
 
 * **a** 
-  * Returns a floating-point value representing the sign of the given number.
+* * Returns a floating-point value representing the sign of the given number.
 
 ##### Returns: 
 * `number`
@@ -298,7 +298,7 @@ Returns the hyperbolic sine of the specified hyperbolic angle.
 ##### Parameters:
 
 * **angle** 
-  * Returns the hyperbolic sine of the specified hyperbolic angle.
+* * Returns the hyperbolic sine of the specified hyperbolic angle.
 
 ##### Returns: 
 * `number`
@@ -313,11 +313,11 @@ Returns the hyperbolic tangent of the specified hyperbolic angle.
 ##### Parameters:
 
 * **angle** `number`
-  * angle
+* * angle
 
 ##### Returns: 
 * `number`
-  * hyperbolic tangent
+*  * hyperbolic tangent
 
 
 * * *
@@ -329,11 +329,11 @@ Returns the integer part of a float number.
 ##### Parameters:
 
 * **a** `number`
-  * float number
+* * float number
 
 ##### Returns: 
 * `number`
-  * integer value
+*  * integer value
 
 
 * * *
@@ -345,14 +345,14 @@ Returns a random number from zero to the given maximum value (both values includ
 ##### Parameters:
 
 * **maximum** `number`
-  * maximum value
+* * maximum value
 
 * **minimum** `number`
-  * optional minimum value
+* * optional minimum value
 
 ##### Returns: 
 * `number`
-  * number
+*  * number
 
 
 * * *
@@ -366,14 +366,14 @@ This operator cannot be used with strings.
 ##### Parameters:
 
 * **a** `number`
-  * first value
+* * first value
 
 * **b** `number`
-  * second value
+* * second value
 
 ##### Returns: 
 * `* | boolean`
-  * logical XOR
+*  * logical XOR
 
 
 * * *
@@ -386,11 +386,11 @@ It's used to take a string of comma separated names and turn it into an
 ##### Parameters:
 
 * **arg** `String | Array`
-  * either a comma separated string or an array
+* * either a comma separated string or an array
 
 ##### Returns: 
 * `Array`
-  * array of normalized names
+*  * array of normalized names
 
 **Example**:
 ```js
@@ -408,14 +408,14 @@ Removes a property from an object and returns it if it exists
 ##### Parameters:
 
 * **obj** `Object`
-  * object
+* * object
 
 * **property** `String`
-  * property to pop off the object
+* * property to pop off the object
 
 ##### Returns: 
 * `*`
-  * popped property
+*  * popped property
 
 
 * * *
@@ -427,11 +427,11 @@ Helper method to return a name without an extension
 ##### Parameters:
 
 * **filename** `String`
-  * Helper method to return a name without an extension
+* * Helper method to return a name without an extension
 
 ##### Returns: 
 * `String`
-  * filename without an extension
+*  * filename without an extension
 
 
 * * *
@@ -443,11 +443,11 @@ Return the file extension of a filename
 ##### Parameters:
 
 * **filename** `String`
-  * Return the file extension of a filename
+* * Return the file extension of a filename
 
 ##### Returns: 
 * `String`
-  * lowercased extension
+*  * lowercased extension
 
 
 * * *
