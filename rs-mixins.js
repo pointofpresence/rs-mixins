@@ -77,8 +77,8 @@ _.mixin({
     /**
      * Returns the area hyperbolic cosine of the specified value.
      *
-     * @param a
-     * @returns {number}
+     * @param {number} a value
+     * @returns {number} area hyperbolic cosine
      */
     aCosH: function (a) {
         return Math.log(a + Math.sqrt(a * a - 1));
@@ -87,8 +87,8 @@ _.mixin({
     /**
      * Returns the area hyperbolic sine of the specified value.
      *
-     * @param a
-     * @returns {number}
+     * @param {number} a value
+     * @returns {number} area hyperbolic sine
      */
     aSinH: function (a) {
         return Math.log(a + Math.sqrt(a * a + 1));
@@ -97,8 +97,8 @@ _.mixin({
     /**
      * Returns the area hyperbolic tangent of the specified value.
      *
-     * @param a
-     * @returns {number}
+     * @param {number} a value
+     * @returns {number} area hyperbolic tangent
      */
     aTanH: function (a) {
         return 0.5 * Math.log((1 + a) / (1 - a));
@@ -107,8 +107,8 @@ _.mixin({
     /**
      * Returns the hyperbolic cosine of the specified hyperbolic angle.
      *
-     * @param angle
-     * @returns {number}
+     * @param {number} angle angle
+     * @returns {number} hyperbolic cosine
      */
     cosH: function (angle) {
         return (Math.exp(angle) + Math.exp(-angle)) / 2;
@@ -117,8 +117,8 @@ _.mixin({
     /**
      * Converts the given angle from radian to degree.
      *
-     * @param angle
-     * @returns {number}
+     * @param {number} angle radian angle
+     * @returns {number} degree angle
      */
     degree: function (angle) {
         return 180 / Math.PI * angle;
@@ -127,8 +127,8 @@ _.mixin({
     /**
      * Converts the given angle from degrees into radian.
      *
-     * @param angle
-     * @returns {number}
+     * @param {number} angle degree angle
+     * @returns {number} radian angle
      */
     radian: function (angle) {
         return Math.PI / 180 * angle;
@@ -137,39 +137,18 @@ _.mixin({
     /**
      * Returns the log in base 10 of the given number.
      *
-     * @param a
-     * @returns {number}
+     * @param {number} a number
+     * @returns {number} log in base 10
      */
     log10: function (a) {
         return Math.log(a) / 2.302585092994046;
     },
 
     /**
-     * Returns the remainder of the division of Number by Divisor.
+     * Returns true if the given value represents positive or negative infinity.
      *
-     * @param number
-     * @param divisor
-     * @returns {Function}
-     */
-    mod: function pbMod(number, divisor) {
-        var b, d = 0, e = b = 0, f = 0;
-        b = number.toExponential().match(/^..?(.*)e(.+)$/);
-        d = parseInt(b[2], 10) - (b[1] + "").length;
-        b = divisor.toExponential().match(/^..?(.*)e(.+)$/);
-        b = parseInt(b[2], 10) - (b[1] + "").length;
-        b > d && (d = b);
-        b = number % divisor;
-
-        return (-100 > d || 20 < d)
-            ? (e = Math.round(Math.log(b) / Math.log(10)), f = Math.pow(10, e), (b / f).toFixed(e - d) * f)
-            : parseFloat(b.toFixed(-d));
-    },
-
-    /**
-     * Returns nonzero if the given value represents positive or negative infinity.
-     *
-     * @param a
-     * @returns {number}
+     * @param {number} a value
+     * @returns {boolean} true or false
      */
     isInfinity: function (a) {
         return a == Number.POSITIVE_INFINITY || a == Number.NEGATIVE_INFINITY;
@@ -178,9 +157,9 @@ _.mixin({
     /**
      * Round the specified float number according to the given mode.
      *
-     * @param number
-     * @param mode (Down = 0 / Up = 1 / Nearest = 2)
-     * @returns {number}
+     * @param {number} number
+     * @param {number} mode mode (Down = 0 / Up = 1 / Nearest = 2)
+     * @returns {number} rounded value
      */
     round: function (number, mode) {
         switch (mode) {
@@ -196,8 +175,8 @@ _.mixin({
     /**
      * Returns a floating-point value representing the sign of the given number.
      *
-     * @param a
-     * @returns {number}
+     * @param {number} a value
+     * @returns {number} -1 or 0 or 1
      */
     sign: function (a) {
         return a ? 0 > a ? -1 : 1 : 0;
@@ -206,8 +185,8 @@ _.mixin({
     /**
      * Returns the hyperbolic sine of the specified hyperbolic angle.
      *
-     * @param angle
-     * @returns {number}
+     * @param {number} angle hyperbolic angle
+     * @returns {number} hyperbolic sine
      */
     sinH: function (angle) {
         return (Math.exp(angle) - Math.exp(-angle)) / 2;
@@ -216,7 +195,7 @@ _.mixin({
     /**
      * Returns the hyperbolic tangent of the specified hyperbolic angle.
      *
-     * @param {number} angle angle
+     * @param {number} angle hyperbolic angle
      * @returns {number} hyperbolic tangent
      */
     tanH: function (angle) {
