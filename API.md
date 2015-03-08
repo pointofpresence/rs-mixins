@@ -445,12 +445,15 @@ Return the file extension of a filename
 
 * * *
 
-### lastElements(num) 
+### lastElements(array, num) 
 
 Returns the last element(s) in the array.
 When [num] is passed, returns the last [num] elements in the array.
 
 ##### Parameters:
+
+* **array** `Array`
+  * array
 
 * **num** `number`
   * number
@@ -461,8 +464,8 @@ When [num] is passed, returns the last [num] elements in the array.
 
 **Example**:
 ```js
-[1,2,3].last()        -> 3
-  [1,2,3].last(2)       -> [2,3]
+_.lastElements([1, 2, 3])    -> 3
+_.lastElements([1, 2, 3], 2) -> [2,3]
 ```
 
 

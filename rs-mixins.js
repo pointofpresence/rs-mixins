@@ -301,15 +301,17 @@ _.mixin({
      * When [num] is passed, returns the last [num] elements in the array.
      *
      * @example
-     *   [1,2,3].last()        -> 3
-     *   [1,2,3].last(2)       -> [2,3]
-     * @param {number} num number
+     * _.lastElements([1, 2, 3])    -> 3
+     * _.lastElements([1, 2, 3], 2) -> [2,3]
+     *
+     * @param {Array} array array
+     * @param {number} [num=1] number
      * @author Andrew Plummer
      * @returns {*} last element(s) in the array
      */
-    lastElements: function(num) {
-        if(isUndefined(num)) return this[this.length - 1];
-        var start = this.length - num < 0 ? 0 : this.length - num;
-        return this.slice(start);
+    lastElements: function (array, num) {
+        if (this.isUndefined(num)) return array[array.length - 1];
+        var start = array.length - num < 0 ? 0 : array.length - num;
+        return array.slice(start);
     }
 });
