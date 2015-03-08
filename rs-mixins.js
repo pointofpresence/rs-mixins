@@ -294,5 +294,22 @@ _.mixin({
     fileExtension: function (filename) {
         var fileParts = filename.split(".");
         return fileParts[fileParts.length - 1].toLowerCase();
+    },
+
+    /**
+     * Returns the last element(s) in the array.
+     * When [num] is passed, returns the last [num] elements in the array.
+     *
+     * @example
+     *   [1,2,3].last()        -> 3
+     *   [1,2,3].last(2)       -> [2,3]
+     * @param {number} num number
+     * @author Andrew Plummer
+     * @returns {*} last element(s) in the array
+     */
+    lastElements: function(num) {
+        if(isUndefined(num)) return this[this.length - 1];
+        var start = this.length - num < 0 ? 0 : this.length - num;
+        return this.slice(start);
     }
 });
